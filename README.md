@@ -250,49 +250,6 @@ pnpm run build
 pnpm run preview
 ```
 
-## 发布到 npm
-
-### 1. 登录 npm
-
-```bash
-npm login
-```
-
-### 2. 发布包
-
-```bash
-# 构建
-pnpm run build
-
-# 发布
-npm publish --access public
-```
-
-### 3. 版本更新
-
-```bash
-# 更新版本（选择其一）
-npm version patch    # 小修复 1.0.0 → 1.0.1
-npm version minor    # 新功能 1.0.0 → 1.1.0
-npm version major    # 重大更新 1.0.0 → 2.0.0
-
-# 重新发布
-npm publish
-```
-
-## 安装使用
-
-```bash
-# 使用 npm
-npm install @print-web/core
-
-# 使用 pnpm
-pnpm add @print-web/core
-
-# 使用 yarn
-yarn add @print-web/core
-```
-
 ## 许可证
 
 MIT License
